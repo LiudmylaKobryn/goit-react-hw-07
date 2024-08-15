@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  background-color: #f9f9f9;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.button {
+  background-color: lightgray;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #d32f2f;
+}
